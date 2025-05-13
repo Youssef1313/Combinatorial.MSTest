@@ -43,6 +43,9 @@ jobs:
       - name: Test
         run: dotnet test --no-build --configuration ${{ matrix.configuration }} -bl:artifacts/log/test.binlog
 
+      - name: Pack
+        run: dotnet pack --no-build --configuration ${{ matrix.configuration }} -bl:artifacts/log/pack.binlog
+
       - name: Upload Results
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
@@ -50,4 +53,5 @@ jobs:
           path: |
             ./artifacts/bin/**/*
             ./artifacts/log/**/*
+            ./artifacts/package/**/*
           if-no-files-found: error
