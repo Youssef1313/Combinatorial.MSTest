@@ -1,5 +1,7 @@
 # Combinatorial.MSTest
 
+[![Combinatorial.MSTest NuGet Badge](https://img.shields.io/nuget/v/Combinatorial.MSTest?label=Latest&logo=nuget)](https://www.nuget.org/packages/Combinatorial.MSTest/)
+
 > [!IMPORTANT]
 > This project is heavily adopted from [Xunit.Combinatorial](https://github.com/AArnott/Xunit.Combinatorial) by [Andrew Arnott](https://github.com/AArnott), but bringing it for MSTest. Lots of the logic is a direct copy/paste from there.
 
