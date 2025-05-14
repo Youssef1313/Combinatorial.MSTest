@@ -12,6 +12,7 @@ on:
 
 env:
   TreatWarningsAsErrors: true
+  ContinuousIntegrationBuild: true
 
 jobs:
   build:
