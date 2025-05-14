@@ -8,7 +8,7 @@
 
 For examples, see [SampleUseTests](https://github.com/Youssef1313/Combinatorial.MSTest/blob/main/tests/Combinatorial.MSTest.Tests/SampleUseTests.cs).
 
-In short, the attribute `CombinatorialData` must be added along with `TestMethod`. The values used for each parameter is determined by the following rules:
+In short, the attribute `CombinatorialData` must be added along with `TestMethod`. The values used for each parameter are determined by the following rules:
 
 1. If the parameter has an attribute that implements `ICombinatorialValuesProvider`, the attribute's `GetValues` method is called to determine the possible values for the given parameter.
     - The following attributes are already shipped and implementing `ICombinatorialValuesProvider`:
