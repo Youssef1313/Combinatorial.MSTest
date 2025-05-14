@@ -23,6 +23,7 @@
     <Description>
       This package provides combinatorial support for MSTest.
     </Description>
+    <PackageLicenseExpression>MS-PL</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>
