@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace MSTestCombinatorial;
+namespace Combinatorial.MSTest;
 
 // Copy from https://github.com/microsoft/testfx/blob/47dee826a0a3eb7a2d9d089ed8aba9d2dabfe82e/src/TestFramework/TestFramework/Internal/TestDataSourceUtilities.cs
 internal static class TestDataSourceUtilities

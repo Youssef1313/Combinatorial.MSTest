@@ -1,6 +1,6 @@
 ﻿using System.Collections.Concurrent;
 
-namespace MSTestCombinatorial.Tests;
+namespace Combinatorial.MSTest.Tests;
 
 [TestClass]
 public class SampleUseTests

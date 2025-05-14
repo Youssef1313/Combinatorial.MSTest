@@ -3,7 +3,7 @@
 
 using System.Reflection;
 
-namespace MSTestCombinatorial;
+namespace Combinatorial.MSTest;
 
 // Adopted from https://github.com/AArnott/Xunit.Combinatorial/blob/78ee72cb6ad53ebdbf85c824ec38205ccd5986e7/src/Xunit.Combinatorial/ICombinatorialValuesProvider.cs
 

@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MSTestCombinatorial\MSTestCombinatorial.csproj" />
+    <ProjectReference Include="..\..\src\Combinatorial.MSTest\Combinatorial.MSTest.csproj" />
   </ItemGroup>
 
   <ItemGroup>

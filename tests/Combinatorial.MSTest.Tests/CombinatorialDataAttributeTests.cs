@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Reflection;
 
-namespace MSTestCombinatorial.Tests;
+namespace Combinatorial.MSTest.Tests;
 
 [TestClass]
 public sealed class CombinatorialDataAttributeTests

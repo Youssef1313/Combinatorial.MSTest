@@ -5,11 +5,11 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTestCombinatorial", "src\MSTestCombinatorial\MSTestCombinatorial.csproj", "{8F7B0C6D-334B-4767-878A-C7B1832C3B77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combinatorial.MSTest", "src\Combinatorial.MSTest\Combinatorial.MSTest.csproj", "{8F7B0C6D-334B-4767-878A-C7B1832C3B77}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTestCombinatorial.Tests", "tests\MSTestCombinatorial.Tests\MSTestCombinatorial.Tests.csproj", "{ED81DC5B-A56D-461E-873A-AFE6E3E0BFE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combinatorial.MSTest.Tests", "tests\Combinatorial.MSTest.Tests\Combinatorial.MSTest.Tests.csproj", "{ED81DC5B-A56D-461E-873A-AFE6E3E0BFE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
