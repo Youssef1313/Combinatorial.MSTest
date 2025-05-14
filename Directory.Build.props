@@ -14,6 +14,8 @@
     <!-- As I'm not producing a separate symbol package (*.snupkg), I want portable PDBs to be included. -->
     <!-- For more information about symbol packages, see https://learn.microsoft.com/en-us/nuget/create-packages/symbol-packages-snupkg -->
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
   </PropertyGroup>
 
 </Project>
