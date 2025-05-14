@@ -17,7 +17,7 @@
 
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
 
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Youssef1313</Authors>
     <PackageTags>MSTest MSTest3 MSTestV3 UnitTesting Testing Combinatorial</PackageTags>
     <Description>
