@@ -51,7 +51,7 @@ public class SampleUseTests
         s_test4Inputs.TryAdd(x, 0);
     }
 
-    [ClassCleanup(ClassCleanupBehavior.EndOfClass)]
+    [ClassCleanup]
     public static void ClassCleanup()
     {
         Assert.AreEqual(12, s_test1Inputs.Count);
