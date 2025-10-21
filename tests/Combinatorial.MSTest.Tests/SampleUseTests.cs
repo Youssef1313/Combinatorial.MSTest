@@ -54,9 +54,9 @@ public class SampleUseTests
     [ClassCleanup]
     public static void ClassCleanup()
     {
-        Assert.AreEqual(12, s_test1Inputs.Count);
-        Assert.AreEqual(6, s_test2Inputs.Count);
-        Assert.AreEqual(6, s_test3Inputs.Count);
-        Assert.AreEqual(8, s_test4Inputs.Count);
+        Assert.HasCount(12, s_test1Inputs);
+        Assert.HasCount(6, s_test2Inputs);
+        Assert.HasCount(6, s_test3Inputs);
+        Assert.HasCount(8, s_test4Inputs);
     }
 }
