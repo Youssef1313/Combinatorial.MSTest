@@ -11,7 +11,7 @@ public sealed class CombinatorialDataAttributeTests
     {
         var attr = new CombinatorialDataAttribute();
         var data = attr.GetData(GetMethod(nameof(TwoBooleans))).ToArray();
-        Assert.AreEqual(4, data.Length);
+        Assert.HasCount(4, data);
         CollectionAssert.AreEquivalent(new[] { true, true }, data[0]);
         CollectionAssert.AreEquivalent(new[] { true, false }, data[1]);
         CollectionAssert.AreEquivalent(new[] { false, true }, data[2]);
@@ -23,7 +23,7 @@ public sealed class CombinatorialDataAttributeTests
     {
         var attr = new CombinatorialDataAttribute();
         var data = attr.GetData(GetMethod(nameof(BooleanAndRange))).ToArray();
-        Assert.AreEqual(6, data.Length);
+        Assert.HasCount(6, data);
         CollectionAssert.AreEquivalent(new object[] { true, 1 }, data[0]);
         CollectionAssert.AreEquivalent(new object[] { true, 2 }, data[1]);
         CollectionAssert.AreEquivalent(new object[] { true, 3 }, data[2]);
@@ -37,7 +37,7 @@ public sealed class CombinatorialDataAttributeTests
     {
         var attr = new CombinatorialDataAttribute();
         var data = attr.GetData(GetMethod(nameof(BooleanAndValues))).ToArray();
-        Assert.AreEqual(6, data.Length);
+        Assert.HasCount(6, data);
         CollectionAssert.AreEquivalent(new object[] { true, "1" }, data[0]);
         CollectionAssert.AreEquivalent(new object[] { true, "2" }, data[1]);
         CollectionAssert.AreEquivalent(new object[] { true, "3" }, data[2]);
