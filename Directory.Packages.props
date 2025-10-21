@@ -1,7 +1,7 @@
 <Project>
   <PropertyGroup>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
-    <MSTestVersion>3.9.1</MSTestVersion>
+    <MSTestVersion>4.0.1</MSTestVersion>
   </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="MSTest" Version="$(MSTestVersion)" />
